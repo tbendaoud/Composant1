@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Composant</title>
+</head>
+<body>
+    <div class="Head">
+        <div><img src="Ressources/Logo.jpg" alt="" class="logo"></div>
+        <div class="Menu">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>CATALOGUE FORMATION</li>
+                <li>CLIENTS</li>
+                <li>TEAMS</li>
+                <li>TESTIMONIALS</li>
+                <li>CONTACT US</li>
+            </ul>
+        </div>
+        <div class="Burger"><img src="Ressources/burger.jpg" alt="" width="100px" onclick="f()" ></div>
+    </div>
+</body>
+<script>
+    var menu = document.getElementsByClassName("Menu");
+    function f(){
+        menu[0].style.visibility="visible";
+    }
+</script>
+</html>
